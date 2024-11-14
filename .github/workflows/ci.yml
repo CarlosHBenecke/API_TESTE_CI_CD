@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-          distribution: 'temurin' # ou 'zulu', caso prefira outra distribuição
+          distribution: 'oracle' # ou 'zulu', caso prefira outra distribuição
 
 
       - name: Build with Maven
